@@ -24,6 +24,3 @@ def getInternalLinks(bsObj,includUrl):
                 else:
                     internalLinks.append(link.attrs['href'])
     return internalLinks
-
-
-    
